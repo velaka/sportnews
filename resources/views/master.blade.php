@@ -23,7 +23,7 @@
     @include ('layouts.nav')
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container" style="margin-top: 60px;" >
 
        @if(Session::has('flash_message'))
             <div class="alert alert-success">
