@@ -25,7 +25,7 @@
           <ul class="list-unstyled mb-0">
             @foreach ($categories as $category)
             <li>
-              <a href="/categories/{{ $category }}">{{ $category }}</a>
+              <a href="/sportnews/public/categories/{{ $category }}">{{ $category }}</a>
             </li>
            @endforeach 
           </ul>
@@ -42,7 +42,7 @@
           <ul class="list-unstyled mb-0">
             @foreach ($tags as $tag)
               <li>
-                <a href="/tags/{{ $tag }}">{{ $tag }}</a>
+                <a href="/sportnews/public/tags/{{ $tag }}">{{ $tag }}</a>
               </li>
             @endforeach
           </ul>
