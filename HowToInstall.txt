@@ -6,9 +6,10 @@ How to install the project ?
 4. Open the cmd.
 5. With cd/ command go to project location.
 6. Use this command to install composer - composer install.
-7. Generate APP_KEY with this command - php artisan key:generate.
-8. Config .env file . Need to set up DB name , DB password and APP_KEY.
-9. To create tables in your database use this command - php artisan migrate .
+7. Use php artisan migrate to create all tables in database.
+8. Generate APP_KEY with this command - php artisan key:generate.
+9. Config .env file . Need to set up DB name , DB password and APP_KEY.
+10. To create tables in your database use this command - php artisan migrate .
 
 What can you do with this project?
 
